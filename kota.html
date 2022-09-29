@@ -39,6 +39,81 @@
             overflow: auto;
         }
 
+        .test:hover{
+    filter: none;
+  opacity: 1;
+}
+  .test{
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+}
+
+.test:hover{
+    filter: none;
+  opacity: 1;
+}
+
+
+
+.test{
+    opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.test:hover{
+    filter: none;
+  opacity: 1;
+}
+
+.avatar {
+ 
+
+ position: relative;
+}
+
+.avatar::before,
+.avatar::after {
+ --scale: 0;
+ --arrow-size: 20px;
+ --tooltip-color: green;
+
+ position: absolute;
+ top: 10rem;
+ left: 50%;
+ transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+ transition: 150ms transform;
+ transform-origin: bottom center;
+}
+
+.avatar::before {
+ --translate-y: calc(-100% - var(--arrow-size));
+
+ content: attr(data-tooltip);
+ color: white;
+ padding: .5rem;
+ border-radius: .3rem;
+ text-align: center;
+ width: max-content;
+ max-width: 100%;
+ background: var(--tooltip-color);
+}
+
+.avatar:hover::before,
+.avatar:hover::after {
+ --scale: 1;
+}
+
+.avatar::after {
+ --translate-y: calc(-1 * var(--arrow-size));
+
+ content: '';
+ border: var(--arrow-size) solid transparent;
+ border-top-color: var(--tooltip-color);
+ transform-origin: top center;
+}
+
         /* ::-webkit-scrollbar {
             display: none;
         } */
@@ -290,7 +365,28 @@
             <div class="rs-banner banner-home-style2">
                 <div class="rs-about style1 pt-98 md-pt-80" style="background-color: #FFFFFF; height: 50vh;">
                     <div class="room">
-                       <img src="test9.gif" alt="" style="width: 500vh;overflow: scroll;" class="img-kota">
+                       <div class="row">
+                           <div class="col-lg-4 avatar" data-tooltip="technopark">
+                               <a href="ict_detail.html">
+                                <img src="kota4.png" alt="" class="test" data-toggle="popover" title="Technopark" data-content="Text didalam body popover">
+                               </a>
+                           </div>
+                           <div class="col-lg-4 avatar" data-tooltip="Startup">
+                               <img src="kota5.png" alt="" class="test">
+                           </div>
+                           <div class="col-lg-4 avatar" data-tooltip="technopark">
+                               <img src="kota6.png" alt="" class="test">
+                           </div>
+                           <div class="col-lg-4">
+                               <img src="kota3.png" alt="" class="test">
+                           </div>
+                           <div class="col-lg-4 avatar" data-tooltip="Komunitas">
+                               <img src="kota2.png" alt="" class="test">
+                           </div>
+                           <div class="col-lg-4">
+                               <img src="3d_test/index.htm" alt="" class="test">
+                           </div>
+                       </div>
                     </div>
                 </div>
                 <div class="animation-style">
@@ -451,5 +547,10 @@
         <script src="assets/js/contact.form.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();   
+            });
+        </script>
     </body>
 </html>
