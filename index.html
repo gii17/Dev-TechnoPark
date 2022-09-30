@@ -45,14 +45,7 @@
                 bottom: 0;
                 z-index: -1;
             }
-
-            html, body { width: 100%; height: 100%; margin: 0; padding: 0; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
-
-#viewer { background-color: #FFFFFF; z-index:1; position:absolute; width: 100%; height: 100%; top: 0; }
-#preloadContainer { z-index:2; position:relative; width:100%; height:100%; transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
         </style>
-
-        
         
     </head>
     <body class="defult-home">
@@ -123,15 +116,30 @@
                                                             </li>
                                                         </ul>
                                                     </li> -->
-                                                    
+                                                    <li class="menu-item-has-children">
+                                                        <a href="#">Menu Page</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="#join">Join Technopark</a></li>
+                                                            <li><a href="#counter">Member & Startup</a></li>
+                                                            <li><a href="#why">Why Technopark</a></li>
+                                                            <li><a href="#berita">News</a></li>
+                                                            <li><a href="#event">Event & Program</a></li>
+                                                            <li><a href="#app">Produk Apps & Software</a></li>
+                                                            <li><a href="#industri">Supported Industry</a></li>
+                                                            <li><a href="#assosiasi">Supported Assosiasi</a></li>
+                                                        </ul>
+                                                    </li>
+
                                                     <li class="menu-item-has-children">
                                                         <a href="#">Menu</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="#berita">Event Program</a></li>
+                                                            <li><a href="event.html">Event Program</a></li>
                                                             <li><a href="#app">Produk Apps & Software</a></li>
                                                             <li><a href="faqs.html#">FAQ</a></li>
                                                         </ul>
                                                     </li>
+
+                                                   
 
                                                     <!-- <li class="menu-item-has-children">
                                                         <a href="#">Speakers</a>
@@ -173,6 +181,7 @@
                                                         <a href="#">Tentang Kami</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="gallery.html">Gallery</a></li>
+                                                            <li><a href="roadmap.html">Road Map</a></li>
                                                             <li><a href="about.html">Tentang Kami</a></li>
                                                             <li><a href="contact.html">Kontak</a></li>
 
@@ -265,7 +274,7 @@
                                 </ul><br/>
 
                                 <div class="btn-part wow fadeinup new">
-                                    <a class="readon btn-text ticket2" href="login.html">
+                                    <a class="readon btn-text ticket2" href="#">
                                 <span> Login Account </span>
 
                             </a>
@@ -397,8 +406,8 @@
                         <h2 class="small-title wow fadeInLeft">Technopark Industry ICT</h2>
                         <span class="sub-title wow fadeInLeft new">Kementerian Perindustrian RI</span>
                         <div class="btn-part wow fadeinup new">
-                            <a class="readon btn-text ticket" href="kota.html">
-                                <span>Go to Maps VirtualTechnopark</span>
+                            <a class="readon btn-text ticket" href="contact.html">
+                                <span> Why U Joint Us </span>
                             </a>
                         </div>
                     </div>
@@ -430,7 +439,7 @@
             <!-- Banner Section End -->
            
             <!-- About Section Start -->
-            <div class="rs-about style1 pt-120 pb-120 md-pt-80 md-pb-75" style="background-color: #FFFFFF;">
+            <div class="rs-about style1 pt-120 pb-120 md-pt-80 md-pb-75" style="background-color: #FFFFFF;"  id="join">
                 <div class="container">
                     <div class="row y-middle">
                         <div class="col-lg-6 pr-15 md-pr-15 md-mb-50">
@@ -503,7 +512,7 @@
             <!-- About Section End -->
 
             <!-- Counter Start Here -->
-            <div class="rs-counter about-style home-style2 bg10 pt-160 pb-160 md-pt-80 md-pb-80">
+            <div class="rs-counter about-style home-style2 bg10 pt-160 pb-160 md-pt-80 md-pb-80" id="counter">
                 <div class="container">
                     <div class="row">
                        <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
@@ -513,8 +522,8 @@
                                </div>
                                <div class="counter-text plus">
                                    <div class="rs-count">10</div>
-                                   <a href="tp.html"><h4 class="title">Technopark ICT</h4> </a>
-                               </div>                    
+                                   <h4 class="title">Technopark ICT</h4>
+                               </div>
                            </div>
                        </div> 
                        <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
@@ -524,7 +533,7 @@
                                </div>
                                <div class="counter-text plus">
                                    <div class="rs-count">500</div>
-                                   <a href="startup.html"><h4 class="title">Startup</h4></a>
+                                   <h4 class="title">Startup</h4>
                                </div>
                            </div>
                        </div> 
@@ -535,23 +544,21 @@
                                </div>
                                <div class="counter-text plus">
                                    <div class="rs-count">50</div>
-                                   <a href="asosiasi.html"><h4 class="title">Assosiasi</h4></a>
+                                   <h4 class="title">Assosiasi</h4>
                                </div>
                            </div>
-                       </div>
-                       
-                       <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
-                        <div class="counter-list">
-                            <div class="counter-icon">
-                                <img src="assets/images/counter/icons/3.png" alt="Counter">
-                            </div>
-                            <div class="counter-text plus">
-                                <div class="rs-count">566</div>
-                                <a href="developer.html"><h4 class="title">Developer</h4></a>
-                            </div>
-                        </div>
-                    </div> 
-                       
+                       </div> 
+                       <div class="col-lg-3 col-md-6 col-sm-6">
+                           <div class="counter-list">
+                               <div class="counter-icon">
+                                   <img src="assets/images/counter/icons/4.png" alt="Counter">
+                               </div>
+                               <div class="counter-text plus">
+                                   <div class="rs-count">556</div>
+                                   <h4 class="title">Developer</h4>
+                               </div>
+                           </div>
+                       </div> 
                     <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 7rem;">
                         <div class="counter-list">
                             <div class="counter-icon">
@@ -603,7 +610,7 @@
             <!-- Counter End Here -->
            
             <!-- Services Section Start -->
-            <div class="rs-services style3 bg11 pt-110 pb-120 md-pt-75 md-pb-80">
+            <div class="rs-services style3 bg11 pt-110 pb-120 md-pt-75 md-pb-80" id="why">
                 <div class="container">
                     <div class="sec-title text-center mb-70 md-mb-50">
                         <span class="sub-text">Joint The Virtual Colaboration</span>
@@ -717,7 +724,7 @@
                         </div>
                         <div class="col-lg-12 text-center mt-70 md-mt-50">
                             <div class="btn-part">
-                                <a class="readon btn-text ticket" href="register.html">
+                                <a class="readon btn-text ticket" href="contact.html">
                                     <span>Register Account</span>
                                 </a>
                             </div>
@@ -743,7 +750,7 @@
 
             <!-- Blog Section Start -->
             <div id="rs-blog" class="rs-blog blog-main-home gray-bg pt-110 pb-120 md-pt-70 md-pb-80">
-                <div class="container">  
+                <div class="container"  id="berita">  
                     <div class="sec-title text-center mb-85">
                         <span class="sub-text small">Our Blog</span>
                         <h2 class="title pb-26">
@@ -917,7 +924,7 @@
             <!-- Blog Section End -->
 
             <!-- Contact Section Start -->
-            <div class="rs-contact home-style1 home-style2 pt-110 pb-120 md-pt-70 md-pb-80" style="background-color: #FFFFFF;">
+            <div class="rs-contact home-style1 home-style2 pt-110 pb-120 md-pt-70 md-pb-80" style="background-color: #FFFFFF;" id="event">
                 <div class="container">
                     <div class="sec-title text-center mb-85">
                         <span class="sub-text">Venue</span>
@@ -988,7 +995,7 @@
                     </div>
                 </div>
                 <!-- Services Section Start -->
-                <div class="rs-services style2 pt-100 md-pt-70" id="berita">
+                <div class="rs-services style2 pt-100 md-pt-70">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 md-mb-30">
@@ -1220,372 +1227,7 @@
             <!-- Contact Section End -->
 
             <!-- Our Event Schedule Start -->
-            <div id="rs-events-schedule" class="rs-events-schedule rs-events-schedule3 bg5 pt-120 pb-120 md-pt-65 md-pb-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                           <div class="events-schedule-tabs">
-                                <h2 align="center">RoadMap Virtual Technopark ICT</h2>
-                                <!-- Nav tabs -->
-                                <ul class="nav eventday-list">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-bs-toggle="tab" href="#sunday">Tahap 1<span>Tahun 2021</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#monday">Tahap 2<span>Tahun 2022</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#tuesday">Tahap 3<span>Tahun 2023</span></a>
-                                    </li>
-                                </ul>
-                                <div class="events-schedule-contents tab-content schedule-one">
-                                    <div class="tab-pane events-shedule-des active show" id="sunday">
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">10:00-12:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Introduction Business</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/1.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Dj Brovo</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/2.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Natalie Portman</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items highlight">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">12:00-2:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Digital Marketing Theory</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/3.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Bruce Willis</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/4.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Nicole Kidman</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">2:00-3:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Lunch Break</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/5.jpg" alt="Images"></a>
-
-                                                                </div>                                                   
-                                                            </div>                      
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div>
-                                        <div class="events-items highlight">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">3:00-5:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Marketing Workshop</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/6.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Jessica Alba</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/7.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Mila Kunis</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div>                      
-                                   </div>
-                                   <div class="tab-pane events-shedule-des" id="monday">
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">10:00-12:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Marketing Strategy</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/4.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Mila Kunis</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/7.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Natalie Portman</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items highlight">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">12:00-2:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Lunch Break</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div>
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/5.jpg" alt="Images"></a>
-
-                                                                </div>                                                   
-                                                            </div>                      
-                                                        </div> 
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">2:00-3:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Reinventing Experiences</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/6.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Megan Fox</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/1.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Dj Brovo</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div>             
-                                   </div>
-                                   <div class="tab-pane events-shedule-des" id="tuesday">
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">10:00-12:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Cultures of Creativity</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/2.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Mila Kunis</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/4.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Natalie Portman</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items highlight">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">12:00-2:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Lunch Break</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/5.jpg" alt="Images"></a>
-
-                                                                </div>                                                   
-                                                            </div>                      
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div> 
-                                        <div class="events-items">
-                                            <div class="row">
-                                                 <div class="col-lg-3">   
-                                                     <div class="event-author">
-                                                        <div class="speak-date">                           
-                                                            <i class="flaticon-clock-1"></i>                                            
-                                                            <div class="date">3:00-5:00</div>  
-                                                             <div class="hall-room"> Room#2</div> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <div class="event-shedule-info">
-                                                        <div class="rs-topic-content">
-                                                            <h3 class="event-title">Introduction Business</h3>
-                                                            <p>
-                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.                                                                                        
-                                                            </p>
-                                                        </div> 
-                                                        <div class="all-seack">
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/7.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Jessica Alba</span>
-                                                                </div>                                                   
-                                                            </div> 
-                                                            <div class="speak-image">
-                                                                <div class="tooltip"><a href="#"><img src="assets/images/tab/1.jpg" alt="Images"></a>
-                                                                    <span class="tooltiptext">Dj Brovo</span>
-                                                                </div>                                                   
-                                                            </div>                                
-                                                        </div>
-                                                    </div>                                 
-                                                </div> 
-                                            </div>
-                                        </div>                      
-                                   </div>
-                                </div> 
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
             <!-- Our Event Schedule End -->
 
             <!-- Team Section Start -->
@@ -1785,7 +1427,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-animate">
+                <div class="team-animate" id="industri">
                     <div class="team-icons left-side">
                         <img src="assets/images/team/animate/1.png" alt="Icons">
                     </div>
@@ -1941,8 +1583,27 @@
                 </div>
             </div> -->
             <!-- Pricing Section End -->
-            <div id="rs-our-sponsor" class="rs-our-sponsor sponsor-home-style5 gray-bg5 pt-120 pb-120 md-pt-70 md-pb-80">
-                <div class="container">
+           
+            <!-- Our Sponsor Section Start -->
+
+            <!-- industri pendukung -->
+           
+            <!-- end industri  pendukung -->
+
+            <!-- Newsletter section start -->
+    
+            <!-- Newsletter section end -->
+        </div> 
+            <!-- Contact Section End -->
+
+            <!-- Our Event Schedule Start -->
+
+            <!-- Our Event Schedule End -->
+
+            <!-- Team Section Start -->
+          
+            <div id="rs-our-sponsor"  class="rs-our-sponsor sponsor-home-style5 gray-bg5  pb-120 md-pt-70 md-pb-80">
+                <div class="container" >
                     <div class="all-grid-sponsors">
                         <div class="sec-title text-center mb-20">
                             <h2 class="title title3">
@@ -1988,8 +1649,8 @@
                 </div>
             </div>
             <!-- Our Sponsor Section Start -->
-            <div id="rs-our-sponsor" class="rs-our-sponsor style1 bg13 pt-120 pb-120 md-pt-80 md-pb-80">
-                <div class="container">
+            <div id="rs-our-sponsor" class="rs-our-sponsor style1 bg13 pt-120 pb-120 md-pt-80 md-pb-80" >
+                <div class="container" id="assosiasi">
                     <div class="sec-title text-center mb-65">
                         <span class="sub-text small">Our Sponsor</span>
                         <h2 class="title white-color pb-35">
@@ -2081,10 +1742,6 @@
                 </div>
             </div>
             <!-- Our Sponsor Section Start -->
-
-            <!-- industri pendukung -->
-           
-            <!-- end industri  pendukung -->
 
             <!-- Newsletter section start -->
             <div class="rs-newsletter style1 mb--110" style="background-color: #FFFFFF;">
