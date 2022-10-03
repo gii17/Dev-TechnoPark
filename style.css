@@ -3685,6 +3685,7 @@ body .search-modal .close:hover {
   padding: 0px 0px 0px 0px;
   color: #0a0a0a;
   position: relative;
+  color: bla
 }
 .rs-counter.about-style .counter-list .counter-text .rs-count:after {
   content: "+";
@@ -3704,14 +3705,14 @@ body .search-modal .close:hover {
 }
 .rs-counter.about-style.home-style2 .counter-list .counter-text .rs-count {
   font-size: 50px;
-  color: #ffffff;
+  color: black;
 }
 .rs-counter.about-style.home-style2 .counter-list .counter-text .title {
-  color: #ffffff;
+  color: black;
 }
 .rs-counter.about-style.home-style2.home-style6 .counter-list .counter-text .title,
 .rs-counter.about-style.home-style2.home-style6 .counter-list .counter-text .rs-count {
-  color: #0a0a0a;
+  color: black;
 }
 /* ------------------------------------
     15. Event Us Section CSS
