@@ -1554,6 +1554,10 @@ blockquote cite:before {
   display: block;
   max-height: 35px;
 }
+
+.full-width-header .rs-header .menu-area.sticky .logo-area a .normal-logo {
+  max-height: 35px;
+}
 .full-width-header .rs-header .menu-area.sticky .logo-area a .normal-logo {
   display: none;
 }
@@ -1874,6 +1878,7 @@ blockquote cite:before {
   color: #ffffff;
   float: right;
 }
+
 .full-width-header .mobile-menu .rs-menu-toggle.primary {
   color: #fa0368;
 }
