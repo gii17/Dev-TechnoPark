@@ -33,6 +33,9 @@
         <link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <!-- animasi -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- end animasi -->
         <style>
             .video-bg{
                 height: 100vh;
@@ -77,7 +80,7 @@
                                     <div class="logo-area">
                                         <a href="index.html">
                                             <img class="normal-logo" src="assets/images/logo-light2.png" alt="logo">  
-                                            <img class="sticky-logo" src="assets/images/logo-dark.png" alt="logo">
+                                            <img class="sticky-logo" src="assets/images/logo-light2.png" alt="logo">
                                         </a>
                                     </div>
                                 </div>
@@ -134,9 +137,9 @@
                                                     <li class="menu-item-has-children">
                                                         <a href="#">Menu</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="event.html">Event Program</a></li>
-                                                            <li><a href="app.html">Produk Apps & Software</a></li>
-                                                            <li><a href="faqs.html#">FAQ</a></li>
+                                                            <li><a href="page/event/event.html">Event Program</a></li>
+                                                            <li><a href="page/app/app.html">Produk Apps & Software</a></li>
+                                                            <li><a href="page/faq/faqs.html#">FAQ</a></li>
                                                         </ul>
                                                     </li>
 
@@ -172,19 +175,19 @@
                                                     </li> -->
 
                                                     <li>
-                                                        <a href="member_technopark.html">Member</a>
+                                                        <a href="page/member/member_ALL.html">Member</a>
                                                     </li>
                                                     <li>
-                                                        <a href="blog.html">Blog</a>
+                                                        <a href="page/blog/blog.html">Blog</a>
                                                     </li>
 
                                                     <li class="menu-item-has-children">
                                                         <a href="contact.html">Tentang Kami</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="gallery.html">Gallery</a></li>
-                                                            <li><a href="roadmap.html">Road Map</a></li>
-                                                            <li><a href="about.html">Tentang Kami</a></li>
-                                                            <li><a href="contact.html">Kontak</a></li>
+                                                            <li><a href="page/tentang_kami/gallery.html">Gallery</a></li>
+                                                            <li><a href="page/tentang_kami/roadmap.html">Road Map</a></li>
+                                                            <li><a href="page/tentang_kami/about.html">Tentang Kami</a></li>
+                                                            <li><a href="page/tentang_kami/contact.html">Kontak</a></li>
 
                                                         </ul>
                                                     </li>
@@ -275,7 +278,7 @@
                                 </ul><br/>
 
                                 <div class="btn-part wow fadeinup new">
-                                    <a class="readon btn-text ticket2" href="login.html">
+                                    <a class="readon btn-text ticket2" href="page/auth/login.html">
                                 <span> Login Account </span>
 
                             </a>
@@ -407,7 +410,7 @@
                         <h2 class="small-title wow fadeInLeft">Technopark Industry ICT</h2>
                         <span class="sub-title wow fadeInLeft new">Kementerian Perindustrian RI</span>
                         <div class="btn-part wow fadeinup new">
-                            <a class="readon btn-text ticket" href="3d/kota.htm">
+                            <a class="readon btn-text ticket" href="kota/kota.htm">
                                 <span>Goo to Maps VirtualTechnoPark</span>
                             </a>
                         </div>
@@ -445,23 +448,23 @@
                     <div class="row y-middle">
                         <div class="col-lg-6 pr-15 md-pr-15 md-mb-50">
                             <div class="images-part">
-                                <img src="http://virtualtechnopark.kemenperin.go.id/images/brand.png" alt="Images" width="400" height="580">
+                                <img src="http://virtualtechnopark.kemenperin.go.id/images/brand.png" alt="Images" width="400" height="580" data-aos="fade-right" data-aos-delay="100">
                             </div>
                         </div>
                         <div class="col-lg-6 pl-45 md-pl-15">
                             <div class="sec-title">
-                                <span class="sub-text">About Virtual Technopark</span>
-                                <h2 class="title pb-22">
+                                <span class="sub-text" data-aos="fade-down" data-aos-delay="300">About Virtual Technopark</span>
+                                <h2 class="title pb-22" data-aos="fade-left" data-aos-delay="400">
                                     Welcome to Virtual Technopark Industry ICT
                                 </h2>
                                 <div class="heading-border-line left-style"></div>
-                                <p class="desc margin-0 pt-40 pb-28">
+                                <p class="desc margin-0 pt-40 pb-28" data-aos="zoom-in" data-aos-delay="500">
                                     Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accu santium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto.
                                 </p>
                                 <div class="rs-addon-services">
                                     <div class="row">
                                        <div class="col-lg-6 md-mb-30">
-                                           <div class="addon-item">
+                                           <div class="addon-item" data-aos="zoom-in" data-aos-delay="600">
                                                <div class="addon-wrap">
                                                    <div class="addon-icon">
                                                        <img src="assets/images/about/style1/icons/1.png" alt="Icons">
@@ -475,7 +478,7 @@
                                            </div>
                                        </div>
                                        <div class="col-lg-6">
-                                           <div class="addon-item">
+                                           <div class="addon-item" data-aos-delay="700" data-aos="zoom-in">
                                                <div class="addon-wrap">
                                                    <div class="addon-icon">
                                                        <img src="assets/images/about/style1/icons/2.png" alt="Icons">
@@ -489,7 +492,7 @@
                                        </div> 
                                     </div>
                                 </div>
-                                <div class="btn-part mt-35">
+                                <div class="btn-part mt-35" data-aos="zoom-in" data-aos-delay="800">
                                     <a class="readon btn-text ticket" href="about.html">
                                         <span>Join This Event</span>
                                     </a>
@@ -622,7 +625,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-20">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-right" data-aos-delay="300">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/1.png" alt="">
                                </div>
@@ -639,7 +642,7 @@
                            </div> 
                         </div>
                         <div class="col-lg-4 col-md-6 mb-20">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-down" data-aos-delay="500">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/2.png" alt="">
                                </div>
@@ -656,7 +659,7 @@
                            </div> 
                         </div>
                         <div class="col-lg-4 col-md-6 mb-20">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-left" data-aos-delay="300">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/3.png" alt="">
                                </div>
@@ -673,7 +676,7 @@
                            </div> 
                         </div>
                         <div class="col-lg-4 col-md-6 md-mb-20">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-right" data-aos-delay="300">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/4.png" alt="">
                                </div>
@@ -690,7 +693,7 @@
                            </div> 
                         </div>
                         <div class="col-lg-4 col-md-6 sm-mb-20">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-up" data-aos-delay="500">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/5.png" alt="">
                                </div>
@@ -707,7 +710,7 @@
                            </div> 
                         </div>
                         <div class="col-lg-4 col-md-6">
-                           <div class="services-item">
+                           <div class="services-item" data-aos="fade-left" data-aos-delay="300">
                                <div class="services-icon">
                                     <img src="assets/images/services/style2/6.png" alt="">
                                </div>
@@ -725,7 +728,7 @@
                         </div>
                         <div class="col-lg-12 text-center mt-70 md-mt-50">
                             <div class="btn-part">
-                                <a class="readon btn-text ticket" href="register.html">
+                                <a class="readon btn-text ticket" href="page/auth/register.html">
                                     <span>Register Account</span>
                                 </a>
                             </div>
@@ -762,7 +765,7 @@
                     <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="jnt.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/jnt.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -784,7 +787,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="efishery.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/efishery.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -806,7 +809,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="xendit.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/xendit.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -828,7 +831,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="ajaib.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/ajaib.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -850,7 +853,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="kopi.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/kopi.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -872,7 +875,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="flip.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/flip.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -894,7 +897,7 @@
                         </div>
                         <div class="blog-item">
                             <div class="image-wrap">
-                                <a href="blog-details.html"><img src="fox.png" alt="Blog"></a>
+                                <a href="blog-details.html"><img src="assets/images/img-blog/blog/ajaib.png" alt="Blog"></a>
                                 <div class="blog-date">
                                     <span class="day">05</span>
                                     <span class="month">May</span>
@@ -1203,7 +1206,7 @@
                     </div>
                     <div class="col-lg-12 text-center mt-70 md-mt-50">
                         <div class="btn-part">
-                            <a class="readon btn-text ticket" href="event.html">
+                            <a class="readon btn-text ticket" href="page/event/event.html">
                                 <span>View Event & Program All</span>
                             </a>
                         </div>
@@ -1595,7 +1598,7 @@
 
             <!-- Team Section Start -->
           
-            <div id="rs-our-sponsor"  class="rs-our-sponsor sponsor-home-style5 gray-bg5 pt-120 pb-80 md-pt-70 md-pb-80">
+            <div id="industri"  class="rs-our-sponsor sponsor-home-style5 gray-bg5 pt-120 pb-80 md-pt-70 md-pb-80">
                 <div class="container" >
                     <div class="all-grid-sponsors">
                         <div class="sec-title text-center mb-20">
@@ -1603,35 +1606,35 @@
                                 - Industri Pendukung -
                             </h2>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-right" data-aos-delay="200">
                             <div class="logo-img">
                                 <a href="https://reactheme.com">
                                     <img src="assets/images/img-industri/1.png" alt="Icons">
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-up" data-aos-delay="500">
                             <div class="logo-img">
                                 <a href="https://reactheme.com">
                                     <img src="assets/images/img-industri/2.png">
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-up" data-aos-delay="600">
                             <div class="logo-img">
                                 <a href="https://reactheme.com">
                                     <img src="assets/images/img-industri/3.png" alt="Icons">
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-up" data-aos-delay="700">
                             <div class="logo-img">
                                 <a href="https://reactheme.com">
                                     <img src="assets/images/img-industri/5.png" alt="Icons">
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        <div class="grid-item" data-aos="fade-left" data-aos-delay="200">
                             <div class="logo-img">
                                 <a href="https://reactheme.com">
                                     <img src="assets/images/img-industri/4.png" alt="Icons">
@@ -1643,7 +1646,7 @@
             </div>
             <!-- Our Sponsor Section Start -->
             <!--  -->
-            <div class="rs-partner sponsors-style pt-110 pb-110 md-pt-70 md-pb-0" style="background-image: url('https://rstheme.com/products/wordpress/evenio/wp-content/uploads/2021/11/bg11.jpg');">
+            <div id="assosiasi" class="rs-partner sponsors-style pt-110 pb-110 md-pt-70 md-pb-0" style="background-image: url('https://rstheme.com/products/wordpress/evenio/wp-content/uploads/2021/11/bg11.jpg');">
                 <div class="container">
                     <div class="sec-title text-center mb-65">
                         <span class="sub-text small">Our Sponsor</span>
@@ -1653,55 +1656,55 @@
                         <div class="heading-border-line"></div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="100"> 
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/ainaki.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/agi.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/aspiluki.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="grid-figure border-no">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/rice.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/iot.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="500">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/btp.png" alt="images"></a>
                                 </div>
                             </div>
-                        </div>  <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        </div>  <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="600">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/bdi.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="700">
                             <div class="grid-figure border-no">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/semarang.png" alt="images"></a>
@@ -1715,14 +1718,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="800">
                             <div class="grid-figure bottom-noborder">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/img-sponsor/makasar.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="900">
                             <div class="grid-figure bottom-noborder">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="assets/images/partner/sponsor/11.png" alt="images"></a>
@@ -1898,5 +1901,10 @@
         <script src="assets/js/contact.form.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
+        <!-- animasi aos js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
