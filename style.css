@@ -4394,6 +4394,7 @@ body .search-modal .close:hover {
   line-height: 28px;
   font-weight: 500;
   margin: 0 0 10px;
+  color:black;
 }
 .rs-team.style1 .team-item .team-inner-wrap .images-wrap .team-content .title-name a {
   color: #ffffff;
@@ -5279,6 +5280,7 @@ body .search-modal .close:hover {
   border-width: 0px 0px 0px 0px;
   border-color: #E9E9E99C;
   background-color: #0000003D;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .rs-our-sponsor.style1 .logo-item .grid-figure .logo-img {
   overflow: hidden;

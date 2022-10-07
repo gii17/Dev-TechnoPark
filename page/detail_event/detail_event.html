@@ -95,7 +95,7 @@
             width: 500px;
             padding: 30px;
             position:absolute;
-            left:20%;
+            left:60%;
             top:70%;
             z-index: 1;
             margin-left:-150px; 
@@ -219,6 +219,73 @@
         form .signup-link a:hover {
             text-decoration: underline;
         }
+        
+        @media (min-width: 200px) and (max-width: 768px) { 
+            .social-info{
+                margin-left: 200px;
+                margin-top: -10px ;
+            }
+            .counter-list1{
+                margin-top: -100px;
+                list-style: none;
+            }
+            
+            .counter-list{
+                margin-top: -100px;
+                list-style: none;
+            }
+
+            .counter-text{
+                margin-top: 80px;
+            }
+            .counter-icon1{
+                margin-top: 80px;
+                margin-right: 20px;
+            }
+
+            .images-part {
+                margin-top: -300px ;
+            }
+
+            .readon{
+                margin-top: 50px;
+            }
+
+        }
+
+        @media (max-width: 500px){ 
+            .social-info{
+                margin-left: 200px;
+                margin-top: -10px ;
+            }
+            .counter-list1{
+                margin-top: -100px;
+                list-style: none;
+            }
+            
+            .counter-list{
+                margin-top: -100px;
+                list-style: none;
+            }
+
+            .counter-text{
+                margin-top: 80px;
+            }
+            .counter-icon1{
+                margin-top: 80px;
+                width: 70px;
+                margin-right: 20px;
+            }
+
+            .images-part {
+                margin-top: -300px ;
+            }
+
+            .readon{
+                margin-top: 50px;
+            }
+        }
+
         </style>
     <body class="defult-home">
         
@@ -599,7 +666,7 @@
                     <div class="row y-middle">
                         <div class="col-lg-6 pr-15 md-pr-15 md-mb-50">
                             <div class="images-part">
-                                <img src="../../assets/images/img-event/news2.png" alt="Images">
+                                <img src="../../assets/images/img-event/detail/event1.jpeg" alt="Images" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
                             </div>
                         </div>
                         <div class="col-lg-6 pl-45 md-pl-15">
@@ -614,7 +681,7 @@
                                 </p>
                                 <div class="rs-counter about-style">
                                     <div class="row">
-                                       <div class="col-lg-6 md-mb-30">
+                                       <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
                                            <div class="counter-list">
                                                <div class="counter-icon">
                                                    <img src="../../assets/images/counter/icons/1.png" alt="Counter">
@@ -625,8 +692,8 @@
                                                </div>
                                            </div>
                                        </div> 
-                                       <div class="col-lg-6">
-                                         <div class="counter-list" style="margin-left: 50px;">
+                                       <div class="col-lg-6 col-md-12 col-sm-6">
+                                         <div class="counter-list1" style="margin-left: 50px;">
                                             <div class="counter-icon" style="width: 70%;">
                                                 <ul class="social-info" style=" display: flex; justify-content: space-around; align-items: center;">
                                                     <li style="display: block;"><a href="#"><img src="../../assets/images/img-event/detail/icons8-facebook-55.png" alt="" width="100"></i></a></li>
@@ -642,7 +709,7 @@
                                     </div>
                                 </div> 
                                 </div>
-                            <div class="btn-part mt-35">
+                            <div class="btn-part" style="margin-top: -30px;">
                                 <div class="tengah">
                                     <input type="checkbox" id="show">
                                     <label for="show" class="readon btn-text ticket">Daftar</label>
@@ -766,7 +833,7 @@
                         <div class="col-lg-6 pl-50 md-pl-15">
                             <div class="rs-videos choose-video">
                                 <div class="images-video">
-                                    <img src="../../assets/images/img-event/news2.png" alt="video/mp4">
+                                    <img src="../../assets/images/img-event/detail/event_vid.png" alt="video/mp4" style="box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;">
                                 </div>
                                 <div class="animate-border">
                                     <a class="popup-border" href="https://www.youtube.com/watch?v=CxXmxRD3Gr0">
@@ -801,13 +868,13 @@
                                         <div class="curve"></div>
                                         <div class="point"></div>
                                     </div>
-                                    <h3 class="title-name"><a href="speaker-single.html">DR. Agus Gumiwang Kartasasmita, M.Si.</a></h3>
+                                    <h3 class="title-name"><a href="speaker-single.html" style="color: black;">DR. Agus Gumiwang Kartasasmita, M.Si.</a></h3>
                                     <div class="team-title">Menteri Perindustrian Republik Indonesia</div>
                                     <ul class="social-icons">
-                                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                       <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                       <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-facebook" style="color: black;"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-instagram" style="color: black;"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-twitter" style="color: black;"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -825,14 +892,14 @@
                                             <div class="curve"></div>
                                             <div class="point"></div>
                                         </div>
-                                        <h3 class="title-name"><a href="speaker-single.html">Taufik Bawazier</a></h3>
+                                        <h3 class="title-name"><a href="speaker-single.html" style="color: black;">Taufik Bawazier</a></h3>
                                         <div class="team-title">DIRJEN ILMATE</div>
                                         <ul class="social-icons">
-                                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
+                                            <li><a href="#"><i class="fa fa-facebook" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a></li>
+                                         </ul>
                                     </div>
                                 </div>
                             </div>
@@ -848,14 +915,14 @@
                                             <div class="curve"></div>
                                             <div class="point"></div>
                                         </div>
-                                        <h3 class="title-name"><a href="speaker-single.html">Ir.Akhari Abidin, M.Si</a></h3>
+                                        <h3 class="title-name"><a href="speaker-single.html" style="color: black;">Ir.Akhari Abidin, M.Si</a></h3>
                                         <div class="team-title">Asosiasi Piranti Lunak Telematika Indonesia</div>
                                         <ul class="social-icons">
-                                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
+                                            <li><a href="#"><i class="fa fa-facebook" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a></li>
+                                         </ul>
                                     </div>
                                 </div>
                             </div>
@@ -871,14 +938,14 @@
                                             <div class="curve"></div>
                                             <div class="point"></div>
                                         </div>
-                                        <h3 class="title-name"><a href="speaker-single.html">Ravindra Airlangga, MS</a></h3>
+                                        <h3 class="title-name"><a href="speaker-single.html" style="color: black;">Ravindra Airlangga, MS</a></h3>
                                         <div class="team-title">Anggota DPR RI</div>
                                         <ul class="social-icons">
-                                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
+                                            <li><a href="#"><i class="fa fa-facebook" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a></li>
+                                         </ul>
                                     </div>
                                 </div>
                             </div>
@@ -894,14 +961,14 @@
                                             <div class="curve"></div>
                                             <div class="point"></div>
                                         </div>
-                                        <h3 class="title-name"><a href="speaker-single.html">Dr. HJ. Umi Waheeda Binti H.Abdulrahman, S.Psi.,M. Si</a></h3>
+                                        <h3 class="title-name"><a href="speaker-single.html" style="color: black;">Dr. HJ. Umi Waheeda Binti H.Abdulrahman, S.Psi.,M. Si</a></h3>
                                         <div class="team-title">Yayasan Al-Ashriyyah Nurul Iman</div>
                                         <ul class="social-icons">
-                                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
+                                            <li><a href="#"><i class="fa fa-facebook" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" style="color: black;"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a></li>
+                                         </ul>
                                     </div>
                                 </div>
                             </div>
@@ -922,55 +989,55 @@
                         <div class="heading-border-line"></div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="100"> 
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="100" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;"> 
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/ainaki.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="200" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/agi.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/aspiluki.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="300" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure border-no">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/rice.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="400" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/iot.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>  
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="500" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/btp.png" alt="images"></a>
                                 </div>
                             </div>
-                        </div>  <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="600">
+                        </div>  <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="600" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/bdi.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="700" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure border-no">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/semarang.png" alt="images"></a>
@@ -984,14 +1051,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="800" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure bottom-noborder">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/img-sponsor/makasar.png" alt="images"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="900">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6" data-aos="zoom-in" data-aos-delay="900" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                             <div class="grid-figure bottom-noborder">
                                 <div class="log-img">
                                     <a href="https://reactheme.com"><img src="../../assets/images/partner/sponsor/11.png" alt="images"></a>

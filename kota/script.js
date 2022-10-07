@@ -292,7 +292,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/bTP_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/event/event.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
