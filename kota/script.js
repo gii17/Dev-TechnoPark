@@ -292,7 +292,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/detail_member/bTP_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/detail_member/bTP_detail.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -405,7 +405,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/detail_member/rice_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/detail_member/rice_detail.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -462,7 +462,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/detail_member/bdi_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/detail_member/bdi_detail.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -519,7 +519,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/detail_member/semarang_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/detail_member/semarang_detail.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -576,7 +576,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/member/member_technopark.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/member/member_technopark.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -633,7 +633,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/member/member_komuni.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/member/member_komuni.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -690,7 +690,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/member/member_startup.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/member/member_startup.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -747,7 +747,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/event/event.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/event/event.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -804,7 +804,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/app/app.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/app/app.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
@@ -861,7 +861,7 @@
  ],
  "areas": [
   {
-   "click": "this.openLink('http://localhost:8080/virtualtechnopark2/page/detail_member/batam_detail.html', '_blank')",
+   "click": "this.openLink('http://localhost/virtualtechnopark2/page/detail_member/batam_detail.html', '_blank')",
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000"
   }
