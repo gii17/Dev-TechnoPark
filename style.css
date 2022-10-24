@@ -3003,8 +3003,8 @@ body .search-modal .close:hover {
   background-size: cover;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  margin: 0px 130px -370px 130px;
-  padding: 270px 0px 270px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 20px 0px 270px 0px;
   z-index: 2;
 }
 .rs-videos.about-video .animate-border .popup-border {
@@ -3015,7 +3015,6 @@ body .search-modal .close:hover {
 .rs-videos.about-video.home5-about-video {
   background-image: url(assets/images/video/video2.jpg);
   text-align: center;
-  margin: 0px 117px 0px 117px;
   border-radius: 5px;
 }
 @keyframes zoomBig {
